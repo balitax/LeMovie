@@ -1,8 +1,11 @@
 # SwiftUI MovieApp
 
-![Alt text](./covers.jpeg?raw=true "SwiftUI MovieApp with TMDB API")
+
+[![IMAGE ALT TEXT HERE](./covers.jpeg?raw=true)](https://www.youtube.com/watch?v=duIlFCp0m-k)
 
 My Frist App use SwiftUI create movie App using TMBD API.
+
+
 This project is inspired from :
 <a href="https://github.com/alfianlosari/SwiftUITMDbV2">SwiftUITMDbV2</a> and
 <a href="https://github.com/alfianlosari/NewsAppSwiftUI">NewsAppSwiftUI</a>
