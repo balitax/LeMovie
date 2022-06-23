@@ -1,6 +1,6 @@
 # SwiftUI MovieApp
 
-![Alt text](./covers.jpg?raw=true "SwiftUI MovieApp with TMDB API")
+![Alt text](./covers.jpeg?raw=true "SwiftUI MovieApp with TMDB API")
 
 My Frist App use SwiftUI create movie App using TMBD API.
 This project is inspired from :
