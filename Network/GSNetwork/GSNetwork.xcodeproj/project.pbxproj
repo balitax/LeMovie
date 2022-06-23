@@ -1,0 +1,400 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9918536F285CB6F300C8F93F /* GSNetwork.h in Headers */ = {isa = PBXBuildFile; fileRef = 9918536E285CB6F300C8F93F /* GSNetwork.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		99185381285CB74600C8F93F /* MovieServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99185380285CB74600C8F93F /* MovieServices.swift */; };
+		99185383285CB90700C8F93F /* DataFetchPhase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99185382285CB90700C8F93F /* DataFetchPhase.swift */; };
+		99185385285CB9F200C8F93F /* MovieAPIServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99185384285CB9F200C8F93F /* MovieAPIServices.swift */; };
+		99185388285CBAD400C8F93F /* MovieResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99185387285CBAD400C8F93F /* MovieResponse.swift */; };
+		99185391285D3C1700C8F93F /* FetchTaskToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99185390285D3C1700C8F93F /* FetchTaskToken.swift */; };
+		99185397286016DC00C8F93F /* MovieDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99185396286016DC00C8F93F /* MovieDataStore.swift */; };
+		999990A82861A94C0059227B /* MovieVideoResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 999990A72861A94C0059227B /* MovieVideoResponse.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9918536B285CB6F300C8F93F /* GSNetwork.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GSNetwork.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9918536E285CB6F300C8F93F /* GSNetwork.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GSNetwork.h; sourceTree = "<group>"; };
+		99185380285CB74600C8F93F /* MovieServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieServices.swift; sourceTree = "<group>"; };
+		99185382285CB90700C8F93F /* DataFetchPhase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataFetchPhase.swift; sourceTree = "<group>"; };
+		99185384285CB9F200C8F93F /* MovieAPIServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieAPIServices.swift; sourceTree = "<group>"; };
+		99185387285CBAD400C8F93F /* MovieResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieResponse.swift; sourceTree = "<group>"; };
+		99185390285D3C1700C8F93F /* FetchTaskToken.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchTaskToken.swift; sourceTree = "<group>"; };
+		99185396286016DC00C8F93F /* MovieDataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDataStore.swift; sourceTree = "<group>"; };
+		999990A72861A94C0059227B /* MovieVideoResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieVideoResponse.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		99185368285CB6F300C8F93F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		99185361285CB6F300C8F93F = {
+			isa = PBXGroup;
+			children = (
+				9918536D285CB6F300C8F93F /* GSNetwork */,
+				9918536C285CB6F300C8F93F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9918536C285CB6F300C8F93F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9918536B285CB6F300C8F93F /* GSNetwork.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9918536D285CB6F300C8F93F /* GSNetwork */ = {
+			isa = PBXGroup;
+			children = (
+				99185392285D3C1D00C8F93F /* Helper */,
+				99185386285CBACB00C8F93F /* Model */,
+				9918537F285CB71A00C8F93F /* Services */,
+				9918536E285CB6F300C8F93F /* GSNetwork.h */,
+			);
+			path = GSNetwork;
+			sourceTree = "<group>";
+		};
+		9918537F285CB71A00C8F93F /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				99185380285CB74600C8F93F /* MovieServices.swift */,
+				99185384285CB9F200C8F93F /* MovieAPIServices.swift */,
+				99185390285D3C1700C8F93F /* FetchTaskToken.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		99185386285CBACB00C8F93F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				99185387285CBAD400C8F93F /* MovieResponse.swift */,
+				99185396286016DC00C8F93F /* MovieDataStore.swift */,
+				999990A72861A94C0059227B /* MovieVideoResponse.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		99185392285D3C1D00C8F93F /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				99185382285CB90700C8F93F /* DataFetchPhase.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		99185366285CB6F300C8F93F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9918536F285CB6F300C8F93F /* GSNetwork.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		9918536A285CB6F300C8F93F /* GSNetwork */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99185372285CB6F300C8F93F /* Build configuration list for PBXNativeTarget "GSNetwork" */;
+			buildPhases = (
+				99185366285CB6F300C8F93F /* Headers */,
+				99185367285CB6F300C8F93F /* Sources */,
+				99185368285CB6F300C8F93F /* Frameworks */,
+				99185369285CB6F300C8F93F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GSNetwork;
+			productName = GSNetwork;
+			productReference = 9918536B285CB6F300C8F93F /* GSNetwork.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		99185362285CB6F300C8F93F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					9918536A285CB6F300C8F93F = {
+						CreatedOnToolsVersion = 14.0;
+						LastSwiftMigration = 1400;
+					};
+				};
+			};
+			buildConfigurationList = 99185365285CB6F300C8F93F /* Build configuration list for PBXProject "GSNetwork" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 99185361285CB6F300C8F93F;
+			productRefGroup = 9918536C285CB6F300C8F93F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9918536A285CB6F300C8F93F /* GSNetwork */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		99185369285CB6F300C8F93F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		99185367285CB6F300C8F93F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99185383285CB90700C8F93F /* DataFetchPhase.swift in Sources */,
+				99185388285CBAD400C8F93F /* MovieResponse.swift in Sources */,
+				99185397286016DC00C8F93F /* MovieDataStore.swift in Sources */,
+				99185381285CB74600C8F93F /* MovieServices.swift in Sources */,
+				99185385285CB9F200C8F93F /* MovieAPIServices.swift in Sources */,
+				99185391285D3C1700C8F93F /* FetchTaskToken.swift in Sources */,
+				999990A82861A94C0059227B /* MovieVideoResponse.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		99185370285CB6F300C8F93F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		99185371285CB6F300C8F93F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		99185373285CB6F300C8F93F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = VNKMY4BMXA;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.agus.GSNetwork;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		99185374285CB6F300C8F93F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = VNKMY4BMXA;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.agus.GSNetwork;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		99185365285CB6F300C8F93F /* Build configuration list for PBXProject "GSNetwork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99185370285CB6F300C8F93F /* Debug */,
+				99185371285CB6F300C8F93F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99185372285CB6F300C8F93F /* Build configuration list for PBXNativeTarget "GSNetwork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99185373285CB6F300C8F93F /* Debug */,
+				99185374285CB6F300C8F93F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 99185362285CB6F300C8F93F /* Project object */;
+}
